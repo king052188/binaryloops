@@ -1,0 +1,14 @@
+{
+    "name": "king052188/binaryloops",
+    "description": "Binary. Unilevel and Leveling System for Multi-Marketing Business",
+    "type": "Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "King Paulo Aquino",
+            "email": "kingpauloaquino@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
