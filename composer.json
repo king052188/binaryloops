@@ -3,12 +3,21 @@
     "description": "Binary. Unilevel and Leveling System for Multi-Marketing Business",
     "type": "Laravel",
     "license": "MIT",
+    "homepage": "https://binaryloops.kpa.ph",
     "authors": [
         {
             "name": "King Paulo Aquino",
             "email": "kingpauloaquino@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "king052188\\binaryloops\\": "src/"
+        }
+    }
 }
